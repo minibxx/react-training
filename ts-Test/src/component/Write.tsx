@@ -7,6 +7,7 @@ type Props = {}
 
 interface ts_msg{
   [key:string]: FormDataEntryValue 
+  //폼 형식일때 이렇게 사용
 }
 const Write = (props: Props) => {
 
