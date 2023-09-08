@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'omyu_pretty';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{ font-family: 'omyu_pretty'; box-sizing: border-box; font-size: 28px;}
+ul, li{ list-style-type: none; margin: 0; padding: 0;} 
+a { text-decoration: none;color: #fff }
+
+header{
+  width:100%; height:10vh;
+  background-color: #ff5f00;
+  display: flex;
+  align-items: center;
+  justify-content: center; gap: 50px;
+}
+article{
+  width:500px; margin:100px auto;
+  height: 75vh;
+  padding:10px 30px; 
+}
+
+.column{
+  display: flex; flex-direction: column; gap :10px;
+}
