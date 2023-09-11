@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'omyu_pretty';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'omyu_pretty';
+  box-sizing: border-box;
+  font-size: 25px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+article {
+  align-items: center;
+  width: 500px; height: 600px;
+  margin: 100px auto;
+  background-color: rgb(255, 242, 177);
+  box-shadow: 0 0 10px rgb(184, 184, 184);
+  border-radius: 30px;
+}
+
+header{padding: 20px 0;}
+.main {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.row{display: flex; flex-direction: row;}
+.column{display: flex; flex-direction: column;}
+
+.phone-img {
+  width:40%;
+}
+
+.Main-bt{
+  width: 100px;
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  margin: 0 10px;
+}
+
+.Main-title{
+  margin-top: 60px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.contact{
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+  height: 60px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid lightgray;
+  margin: 5px 0;
+
+  >img{
+    width: 7%;
+    margin: 0;
+  }
+}
+
+.firstName{
+  margin-right: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  padding: 2px 6px;
+  font-size: 20px;
+}
+.padding{padding: 0 60px;}
+.blue{
+  background-color: rgb(217, 224, 231);
+  height: 50px;
+  padding-top: 10px;
+  margin: 20px 0;
+}
+
+.new-friend{
+  margin: 20px 0;
+}
+input, button{
+  width: 100%;
+  height: 50px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border-style: none;
+  text-align: start;
+}
+
+button{ text-align: center; background-color: rgb(217, 224, 231); }
