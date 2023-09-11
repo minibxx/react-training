@@ -10,7 +10,7 @@ const Main = (props: Props) => {
     <article>
         <div className='main'>
             <div className='Main-title'>Contact<br/> Application</div>
-            <div><img className="phone-img" src="./phone1.png"/></div>
+            <div><img className="Mphone-img" src="./phone1.png"/></div>
             <div>
                 <Link className="Main-bt" to='/list'>리스트</Link>
                 <Link className="Main-bt" to='/regist'>신규등록</Link>
